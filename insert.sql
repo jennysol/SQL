@@ -37,3 +37,15 @@ INSERT INTO VOLTA(tempo, idPiloto, idEquipe) VALUES
     ('0:30:02', 8, 8),
     ('0:31:02', 9, 9),
     ('0:32:02', 10, 10);
+
+INSERT INTO CORRIDA(nome_gp, qtd_voltas, idEquipe, idPais) VALUES
+	('Rua de Adelaide', 1, 1, 1),
+    ('Ain-Diab', 2, 2, 2),
+    ('Aintree', 3, 3, 3),
+    ('Albert Park', 4, 4, 4),
+    ('Algarve', 5, 5, 5),
+    ('Américas', 6, 6, 6),
+    ('AVUS', 7, 7, 7),
+    ('Bahrein', 8, 8, 8),
+    ('Urbano de Baku', 9, 9, 9),
+    ('Catalunha', 10, 10, 10);
