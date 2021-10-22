@@ -49,3 +49,15 @@ INSERT INTO CORRIDA(nome_gp, qtd_voltas, idEquipe, idPais) VALUES
     ('Bahrein', 8, 8, 8),
     ('Urbano de Baku', 9, 9, 9),
     ('Catalunha', 10, 10, 10);
+
+INSERT INTO PARTICIPANTE(posicao_largada, idEquipe, idPiloto) VALUES
+	('01', 1, 1),
+    ('02', 2, 2),
+    ('03', 3, 3),
+    ('04', 4, 4),
+    ('05', 5, 5),
+    ('06', 6, 6),
+    ('07', 7, 7),
+    ('08', 8, 8),
+    ('09', 9, 9),
+	('10', 10, 10);
