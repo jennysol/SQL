@@ -1,6 +1,7 @@
 USE formula1;
 
 select * from volta;
+
 INSERT INTO EQUIPE(sigla, nome, idPais) VALUES 
 	('AF',  'Alfa Romeo',      1),
 	('FR',  'Ferrari',         2),
@@ -24,3 +25,15 @@ INSERT INTO PILOTO(numero, nome, idPais, idEquipe) VALUES
 	(8,  'Sergio Perez',     8, 8),
 	(9,  'Fernando Alonso',  9, 9),
 	(10, 'Charles Leclerc', 10, 10);
+
+INSERT INTO VOLTA(tempo, idPiloto, idEquipe) VALUES 
+	('0:23:02', 1, 1),
+    ('0:24:02', 2, 2),
+    ('0:25:02', 3, 3),
+    ('0:26:02', 4, 4),
+    ('0:27:02', 5, 5),
+    ('0:28:02', 6, 6),
+    ('0:29:02', 7, 7),
+    ('0:30:02', 8, 8),
+    ('0:31:02', 9, 9),
+    ('0:32:02', 10, 10);
